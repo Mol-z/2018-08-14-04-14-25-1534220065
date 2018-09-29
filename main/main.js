@@ -16,7 +16,7 @@ module.exports = function main(str) {
 		out_struc3.push(num_struc3[num]);
 	}
 	
-	out_struc = out_struc1.join(' ') +  '\n' + out_struc2.join(' ') +  '\n' + out_struc3.join(' ') +  '\n';
+	out_struc = out_struc1.join('') +  '\n' + out_struc2.join('') +  '\n' + out_struc3.join('') +  '\n';
 	console.log(out_struc);
     return out_struc;
 };
