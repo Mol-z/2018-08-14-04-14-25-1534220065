@@ -11,9 +11,9 @@ module.exports = function main(str) {
 	for(var i = 0; i < str.length; i++)
 	{
 		num = parseInt(str[i]);
-		out_struc1.push(num_struc1(num));
-		out_struc2.push(num_struc2(num));
-		out_struc3.push(num_struc3(num));
+		out_struc1.push(num_struc1[num]);
+		out_struc2.push(num_struc2[num]);
+		out_struc3.push(num_struc3[num]);
 	}
 	
 	out_struc = out_struc1.join(' ') +  '\n' + out_struc2.join(' ') +  '\n' + out_struc3.join(' ') +  '\n';
