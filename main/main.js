@@ -2,10 +2,10 @@ module.exports = function main(str) {
 	var num_struc1 = ["._.","...","._.","._.","...","._.","._.","._.","._.","._."];
 	var num_struc2 = ["|.|","..|","._|","._|","|_|","|_.","|_.","..|","|_|","|_|"];
 	var num_struc3 = ["|_|","..|","|_.","._|","..|","._|","|_|","..|","|_|","..|"];
-    var out_struc1 = [];
-	var out_struc2 = [];
-	var out_struc3 = [];
-	var out_struc = [];
+    var out_struc1;
+	var out_struc2;
+	var out_struc3;
+	var out_struc;
 	var num;
 	
 	for(var i = 0; i < str.length; i++)
