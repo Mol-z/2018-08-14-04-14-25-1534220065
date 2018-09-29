@@ -8,7 +8,7 @@ module.exports = function main(str) {
 	var out_struc = [];
 	var num;
 	
-	for(var i = 0; i < str.length, i++)
+	for(var i = 0; i < str.length; i++)
 	{
 		num = parseInt(str[i]);
 		out_struc1.push(num_struc1(num));
